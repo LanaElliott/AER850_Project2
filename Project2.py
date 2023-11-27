@@ -80,7 +80,7 @@ history1 = model.fit(train_generator,
 history2 = model2.fit(train_generator,
                       validation_data=validation_generator,
                       steps_per_epoch=150 // bs,
-                      epochs=10,
+                      epochs=30,
                       validation_steps=50 // bs,
                       verbose=2)
 
