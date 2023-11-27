@@ -55,7 +55,7 @@ model2 = tf.keras.models.Sequential([
     tf.keras.layers.Flatten(),
     tf.keras.layers.Dense(1024, activation='LeakyReLU'),
     tf.keras.layers.Dropout(0.2),
-    tf.keras.layers.Dense(4, activation='softmax')  # New output layer
+    tf.keras.layers.Dense(4, activation='softmax')  
 ])
 
 #Compiling the model2:
